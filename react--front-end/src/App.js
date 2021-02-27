@@ -1,12 +1,18 @@
-import Header from './components/Header'
+import Header from './components/Header';
+import Welcome from './components/Welcome';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
-  const arr = ["Brad", "Joe", "Max"]
-  const index = 1
+  //we could import arr from backend 
+
   return (
     <div className="container">
-      <h1> Hello {arr[index]}</h1>
+      
       <Header/>
+      <Welcome/>
+      
+    
       
       
     </div>
